@@ -5,11 +5,12 @@ const {
 
 const fileLoaderMatcher = function(rule) {
   return rule.loader && rule.loader.indexOf(`file-loader`) != -1;
-}
+};
 
 module.exports = function override(config, env) {
   // babel-plugin-import
   config = injectBabelPlugin(['import', {
+    libraryDirectory: 'es',
     libraryName: 'antd-mobile',
     //style: 'css',
     style: true, // use less for customized theme
