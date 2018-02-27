@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd-mobile": "^2.1.5",
+    "antd-mobile": "^2.1.6",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
+    "react-scripts": "^1.1.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -15,9 +15,9 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "babel-plugin-import": "^1.6.3",
+    "babel-plugin-import": "^1.6.5",
     "less": "^2.7.3",
-    "less-loader": "^4.0.5",
+    "less-loader": "^4.0.6",
     "react-app-rewired": "^1.4.1"
   }
 }
